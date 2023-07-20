@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Business - Product Landing Page</title>
+  <style>
+    /* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  background-image: url("c.jpg");
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+p{
+  color: rgb(255, 254, 254);
+}
+a {
+  text-decoration: none;
+  color: #fffdfd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #473328;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 32px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h2 {
+  color: rgb(255, 253, 253);
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #cc5500;
+}
+
+/* About Section Styles */
+#about {
+  background-color:#473328;
+  text-align: center;
+  padding: 80px 0;
+}
+
+/* Products Section Styles */
+#products {
+  
+  background-color: rgb(253, 248, 248);
+  text-align: center;
+  padding: 80px 0;
+}
+
+.product-card {
+  background-color: #626262;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.product-card img {
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.product-card h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.product-card p {
+  margin: 10px 0;
+}
+
+/* Contact Section Styles */
+#contact {
+  text-align: center;
+  padding: 80px 0;
+  background-image: url("c.jpg");
+}
+#contact h2{
+  color: rgb(255, 255, 255);
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc5500;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to CAFFEINATED</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Discover the Finest Coffee</h2>
+      <p><b>Sip, savor, and awaken your senses with our exquisite brews.</b></p>
+      <a href="#products" class="btn">Explore Our Products</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Fueling your day with aromatic brews, where passion and quality blend in every sip.</p>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-card">
+        <img src="cep.jpg" alt="Coffee Product">
+        <h3>Cappuccino</h3>
+        <p>Indulge in creamy bliss with our heavenly cappuccinos of perfection.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="product-card">
+        <img src="fr.jpg" alt="Coffee Product">
+        <h3>Frappe</h3>
+        <p>Chill and delight with our refreshing frappes, a sip of pure bliss.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <!-- Add more product cards here -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Coffee Business. All rights reserved.</p>
+  </footer>
+
+  <script>
+
+    // script.js
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+// Toggle active class on navigation links
+const navLinks = document.querySelectorAll('nav ul li a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', function() {
+    navLinks.forEach(navLink => navLink.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+// Toggle mobile navigation menu
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('nav ul');
+
+hamburger.addEventListener('click', function() {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
+
+// Form submission confirmation
+const form = document.querySelector('form');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you for your message! We will get back to you soon.');
+  form.reset();
+});
+
+
+  </script>
+</body>
+</html>
